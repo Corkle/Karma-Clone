@@ -10,6 +10,11 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 /**
@@ -425,4 +430,59 @@ table {
 td,
 th {
   padding: 0;
+}
+
+.top-nav-bar {
+    display: block;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.top-nav-bar > .container {
+    min-width: 600px;
+    height: 70px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.top-nav-bar .small-logo {
+    padding-top: 15px;
+}
+
+.top-nav-bar .links {
+    float: right;
+    margin-top: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-nav-bar .links li{
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.top-nav-bar .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-nav-bar .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.question {
+    font-size: 10px;
+    font-family: 'Helvetica',sans-serif;
+    color: #856DFF;
+}
+
+.top-nav-bar .question {
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    top: 50px;
 }
