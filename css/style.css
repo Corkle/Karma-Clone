@@ -15,6 +15,7 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
 }
 
 /**
@@ -433,10 +434,15 @@ th {
   padding: 0;
 }
 
+/* My Elements
+   ========================================================================== */
+
 .top-nav-bar {
     display: block;
     background-color: white;
     width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #DDD;
 }
 
 .top-nav-bar > .container {
@@ -485,10 +491,22 @@ th {
 
 .large-content-display {
     background-image: url('../images/background.jpg');
-    background-size: cover;
-    background-position: bottom center;
+    background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 735px;
+    overflow: auto;
+}
+
+.large-content-display h1 {
+    margin-top: 280px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.large-content-display h3 {
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 .large-content-display h1, .large-content-display h3 {
