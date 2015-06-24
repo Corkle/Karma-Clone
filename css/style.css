@@ -530,3 +530,7 @@ th {
     line-height: 21px;
     margin-top: 25px;
 }
+
+.big-button:hover {
+    background-color: #eb3b01;
+}
