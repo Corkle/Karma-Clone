@@ -450,13 +450,14 @@ th {
 
 .top-nav-bar > .container {
     height: 70px;
+    padding: 0px 15px;
+    min-width: 700px;
+    width: 60%;
 }
 
 .container {
     margin: 0 auto;
-    padding: 0px 15px;
-    min-width: 700px;
-    width: 60%;
+    text-align: center;
 }
 
 .top-nav-bar .small-logo {
@@ -562,10 +563,65 @@ th {
     font-size: 44px;
     font-weight: 300;
     margin: 26px 0px 50px;
-
 }
 
 .center-tiles .container {
     text-align: center;
     margin-top: 126px;
+}
+
+.social-icons > li {
+    display: inline-block;
+    border: 1px solid #eaebec;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 5px;
+    padding: 10px;
+}
+
+.twitter {
+    color: #55acee;
+}
+
+.facebook {
+    color: #4c66a4;
+}
+
+.instagram {
+    color: #3f729b;
+}
+
+footer hr {
+    margin: 21px 0px;
+    border: 0;
+    border-top: 1px solid #eaebec;
+    display: block;
+}
+
+footer {
+    background-color: white;
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+    color: #838994;
+}
+
+footer .container {
+    width: 736px;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
 }
