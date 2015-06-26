@@ -445,6 +445,7 @@ th {
     width: 100%;
     position: fixed;
     border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 
 .top-nav-bar > .container {
@@ -533,4 +534,38 @@ th {
 
 .big-button:hover {
     background-color: #eb3b01;
+}
+
+.tiles {
+    font-size: 0;
+}
+
+.tiles > li {
+    display: inline-block;
+    width: 33.33333%;
+    box-sizing: border-box;
+}
+
+.tiles h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 40px 0px 30px;
+}
+
+.center-tiles {
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.center-tiles h2 {
+    font-size: 44px;
+    font-weight: 300;
+    margin: 26px 0px 50px;
+
+}
+
+.center-tiles .container {
+    text-align: center;
+    margin-top: 126px;
 }
